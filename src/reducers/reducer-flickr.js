@@ -5,8 +5,7 @@ const INITIAL_STATE = {data: null, loading: false, error: ''};
 export default function(state = INITIAL_STATE, action) {
     switch (action.type) {
         case FETCH_DATA_SUCCESS:
-            console.log(action.payload);
-            return {...state, loading:false, data: action.payload, error: ''};
+            return {...state, loading: false, data: action.payload, error: ''};
         case FETCH_DATA_FAIL:
             return {...state, loading: false, error: action.error};
         case FETCH_DATA_PROCESS:

@@ -11,4 +11,4 @@ const GridItem = ({imgUrl, imgTitle}) => {
     );
 };
 
-export default GridItem;
+export { GridItem };

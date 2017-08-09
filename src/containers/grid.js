@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import MDSpinner from "react-md-spinner";
 
-import GridItem from '../components/grid-item';
+import { GridItem } from '../components';
 
 
 class Grid extends Component {

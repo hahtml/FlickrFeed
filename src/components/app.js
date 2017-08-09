@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import SearchBar from '../containers/search-bar';
-import Grid from '../containers/grid';
+import { SearchBar, Grid } from '../containers';
 
 export default class App extends Component {
   render() {
