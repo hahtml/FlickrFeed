@@ -2,7 +2,8 @@
 
 ## At the Beginning
 ```
-- start with https://github.com/StephenGrider/ReduxSimpleStarter.git
+# start with a boilerplate
+  https://github.com/StephenGrider/ReduxSimpleStarter.git
 - remove unesssary packages
 - add containers dir for components which related to Redux
 ```
