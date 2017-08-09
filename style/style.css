@@ -1,0 +1,36 @@
+.search-bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.spinner {
+    flex: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+figure {
+    padding: 5px;
+    display: table;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+}
+
+.grid-item {
+    display: inline-block;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
